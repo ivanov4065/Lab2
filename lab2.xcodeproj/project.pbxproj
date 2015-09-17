@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA2847511BAB72E70022B85D /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2847501BAB72E70022B85D /* Encryption.swift */; };
 		FA367F781B0BE89700036666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA367F771B0BE89700036666 /* AppDelegate.swift */; };
 		FA367F7A1B0BE89700036666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA367F791B0BE89700036666 /* ViewController.swift */; };
 		FA367F7D1B0BE89700036666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA367F7B1B0BE89700036666 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA2847501BAB72E70022B85D /* Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Encryption.swift; path = ../Encryption.swift; sourceTree = "<group>"; };
 		FA367F721B0BE89700036666 /* lab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA367F761B0BE89700036666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA367F771B0BE89700036666 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				FA367F771B0BE89700036666 /* AppDelegate.swift */,
 				FA367F791B0BE89700036666 /* ViewController.swift */,
+				FA2847501BAB72E70022B85D /* Encryption.swift */,
 				FA367F7B1B0BE89700036666 /* Main.storyboard */,
 				FA367F7E1B0BE89700036666 /* Images.xcassets */,
 				FA367F801B0BE89700036666 /* LaunchScreen.xib */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2847511BAB72E70022B85D /* Encryption.swift in Sources */,
 				FA367F7A1B0BE89700036666 /* ViewController.swift in Sources */,
 				FA367F781B0BE89700036666 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +413,7 @@
 				FA367F931B0BE89700036666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FA367F941B0BE89700036666 /* Build configuration list for PBXNativeTarget "lab2Tests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +422,7 @@
 				FA367F961B0BE89700036666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
